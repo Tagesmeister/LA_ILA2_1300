@@ -27,9 +27,10 @@
 | 5  |            Muss     |   Funktional    | Als Nutzer erwarte ich, wenn ich die Zahl richtig erraten habe, dass ich darauf hingewiesen werde.|
 | 6  |            Muss     |   Funktional    | Als Nutzer erwarte ich, dass beim Erraten der Geheimzahl die Anzahl aller  Ratversuche angezeigt wird. |
 | 7  |            Muss     |   Funktional    | Als Nutzer erwarte ich, dass das Programm mit Fehlereingabe umgehen kann.|
-| 8  |            Muss     |   Rand    | Als Nutzer erwarte ich, dass das Programm Projektorientiert programmiert wird.|
-| 9  |            Kann     |   Qualität    | Als Nutzer erwarte ich, dass das Programm schön geordnet ist.|
-| 10  |            Kann     |   Qualität    | Als Nutzer erwarte ich, dass das Programm mich am ende Fragt, ob ich noch spielen möchte.|
+| 8  |            Kann     |   Qualität    | Als Nutzer erwarte ich, dass das Programm schön geordnet ist.|
+| 9  |            Kann     |   Qualität    | Als Nutzer erwarte ich, dass das Programm mich am ende Fragt, ob ich noch spielen möchte.|
+| 10  |            Muss     |   Rand    | Als Nutzer erwarte ich, dass das Programm Projektorientiert programmiert wird.|
+
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
@@ -50,10 +51,10 @@
 | 7.2 |   Programm gestartet + Eingabefeld erscheint        |   150     | "Die Zahl befindet sich zwischen 1 und 100."|
 | 7.3 |   Programm gestartet + Eingabefeld erscheint        |   -2       | "Die Zahl befindet sich zwischen 1 und 100."|
 | 7.3 |   Programm gestartet + Eingabefeld erscheint        |   0       | "Die Zahl befindet sich zwischen 1 und 100."|
-| 8.1 |   *Nichts*       |   *Nichts*       | *Programm ist Projektorientiert programmiert.*|
-| 9.1 |   Programm gestartet + gesuchte Zahl gefunden + Programmende       |   *Nichts*       | *Alles schön abgegrentzt untereinander.*|
-| 10.1 |   Programm gestartet + Programmende + Abfrage für nochmal spielen erscheint       |   ja      | *Programm beginnt von neu.*|
-| 10.2 |   Programm gestartet + Programmende + Abfrage für nochmal spielen erscheint       |   nein     | *Programm endet.*|
+| 8.1 |   Programm gestartet + gesuchte Zahl gefunden + Programmende       |   *Nichts*       | *Alles schön abgegrentzt untereinander.*|
+| 9.1 |   Programm gestartet + Programmende + Abfrage für nochmal spielen erscheint       |   ja      | *Programm beginnt von neu.*|
+| 9.2 |   Programm gestartet + Programmende + Abfrage für nochmal spielen erscheint       |   nein     | *Programm endet.*|
+| 10.1 |   *Nichts*       |   *Nichts*       | *Programm ist Projektorientiert programmiert.*|
 
 
 
@@ -67,10 +68,19 @@
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |    18.08.2023   |      Pascal Oestrich     |      User-Storys und Testfälle        |        1       |
+| 2.A  |     18.08.2023   |     Pascal Oestrich       |      Randomzahl generator        |    0.3           |
+| 3.A  |     18.08.2023   |     Pascal Oestrich       |      Hinweisprogrammierung Zahl zu niedrig   |    1           |
+| 4.A  |     25.08.2023   |     Pascal Oestrich       |      Hinweisprogrammierung Zahl zu hoch       |    0.8           |
+| 5.A  |    25.08.2023   |      Pascal Oestrich     |      Hinweisprogrammierung Zahl gefunden       |        0,5       |
+| 6.A  |    25.09.2023   |      Pascal Oestrich     |     Anzahlratversuchamzeige      |        0,5       |
+| 7.A  |    25.09.2023   |      Pascal Oestrich     |      Umgang mit Fehlereingaben       |        1       |
+| 8.A  |    1.09.2023   |      Pascal Oestrich     |      Schönes Design der Programms       |        1       |
+| 9.A  |    1.09.2023   |      Pascal Oestrich     |      Abfrage fürs Weiterspielen       |        0,3       |
 
-Total: 
+6,4 Paketen, 1 Paket = 45 min
+
+Total: 288 min
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
