@@ -1,14 +1,13 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
 Gruppe: GIGACHAD | Pascal Oestrich
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+|  18.08.2023     | 0.1.0   | Projektdokumentation (User-Story, Testfälle, Planung erstellt. Programm: (Planung 1.A, 2.A, 3.A) Realisiert|
+|     25.08.2023  | 0.2.0   | Programm: (Planung(4.A, 5.A, 6.A, 7.A)                                                           |
+|    01.09.2023  | 0.3.0   |   Programm: Planung(8.A, 9.A)                                                           |
+|    03.09.2023  | 1.0.0   |   Programm: Umgeschrieben, OOP, Verbessert                                                          |
 
 ## 1 Informieren
 
@@ -31,10 +30,6 @@ Ich programmiere Objektorientiert ein Numberguesser-Spiel.
 | 9  |            Kann     |   Qualität    | Als Nutzer erwarte ich, dass das Programm mich am ende Fragt, ob ich noch spielen möchte.|
 | 10  |            Muss     |   Rand    | Als Nutzer erwarte ich, dass das Programm Projektorientiert programmiert wird.|
 
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
-
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
@@ -56,10 +51,6 @@ Ich programmiere Objektorientiert ein Numberguesser-Spiel.
 | 9.2 |   Programm gestartet + Programmende + Abfrage für nochmal spielen erscheint       |   nein     | *Programm endet.*|
 | 10.1 |   *Nichts*       |   *Nichts*       | *Programm ist Projektorientiert programmiert.*|
 
-
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
 ### 1.4 Diagramme
 
 ✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
@@ -75,40 +66,59 @@ Ich programmiere Objektorientiert ein Numberguesser-Spiel.
 | 5.A  |    25.08.2023   |      Pascal Oestrich     |      Hinweisprogrammierung Zahl gefunden       |        0,5       |
 | 6.A  |    25.09.2023   |      Pascal Oestrich     |     Anzahlratversuchamzeige      |        0,5       |
 | 7.A  |    25.09.2023   |      Pascal Oestrich     |      Umgang mit Fehlereingaben       |        1       |
-| 8.A  |    1.09.2023   |      Pascal Oestrich     |      Schönes Design der Programms       |        1       |
-| 9.A  |    1.09.2023   |      Pascal Oestrich     |      Abfrage fürs Weiterspielen       |        0,3       |
+| 8.A  |    01.09.2023   |      Pascal Oestrich     |      Schönes Design der Programms       |        1       |
+| 9.A  |    01.09.2023   |      Pascal Oestrich     |      Abfrage fürs Weiterspielen       |        0,3       |
+| 10.A  |    03.09.2023   |      Pascal Oestrich     |      Umschreiben OOP, Verbessern       |        2       |
 
-6,4 Paketen, 1 Paket = 45 min
+7,4 Paketen, 1 Paket = 45 min
 
 Total: 288 min
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe mich entschieden, nach Planung zu arbeiten, dazu werde ich bei Bedarf oder bei notwendigen Anpassungen das Programm optimieren.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| 1.A  |   18.08.2023    |     Pascal Oestrich      |      1         |         1,5          |
+| 2.A  |   18.08.2023    |     Pascal Oestrich      |      1         |         1,5          |
+| 3.A  |   18.08.2023    |     Pascal Oestrich      |      1         |         1,5          |
+| 4.A  |   25.08.2023    |     Pascal Oestrich      |      0,8         |         1          |
+| 5.A  |   25.08.2023    |     Pascal Oestrich      |      0,5         |         0,8          |
+| 6.A  |   25.08.2023    |     Pascal Oestrich      |      0,5         |         1          |
+| 7.A  |   25.08.2023    |     Pascal Oestrich      |      1         |         0,8          |
+| 8.A  |   1.09.2023    |     Pascal Oestrich      |      1         |         1.5          |
+| 9.A  |   1.09.2023    |     Pascal Oestrich      |      0,3         |         0,3          |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+9.9 Pakete, 1 Paket = 45 min
+
+Total = 445.5 min
 
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |   
+| 1.2 |   08.09.2023    |    OK      |    Pascal Oestrich    |      
+| 2.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 3.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 4.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 5.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 6.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 6.2 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 7.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 7.2 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 7.3 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 7.3 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 8.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 9.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 9.2 |   08.09.2023    |    OK      |    Pascal Oestrich    |
+| 10.1|   08.09.2023    |    OK      |    Pascal Oestrich    |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Das Programm läuft einwandfrei.
 
 ### 5.2 Exploratives Testen
 
