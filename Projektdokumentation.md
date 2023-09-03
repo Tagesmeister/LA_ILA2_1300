@@ -126,10 +126,11 @@ Das Programm läuft einwandfrei.
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+| I    |    Programm gestartet + Eingabe Feld für Zahl          |   "s"      |    "Ungültige Eingabe"               |        "Ungültige Eingabe"                 |
+| II  |      Programm gestartet + Eingabe Feld für Zahl            |  101       |      "Ungültige Eingabe"              |        "Ungültige Eingabe"                 |
+| II  |      Programm gestartet + Eingabe Feld für Zahl            |  0       |      "Ungültige Eingabe"              |        "Ungültige Eingabe"                 |
+| III  |      Programm gestartet + Abfrage auf Weiterspielen            |  "s"       |      "Ungültige Eingabe"              |        "Ungültige Eingabe"                 |
+| IV  |      Programm gestartet + Eingabe Feld für Zahl            |  5      |      "Ungültige Eingabe"              |        "Ungültige Eingabe"                 |
 
 ## 6 Auswerten
 
