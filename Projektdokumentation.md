@@ -70,9 +70,9 @@ Ich programmiere Objektorientiert ein Numberguesser-Spiel.
 | 9.A  |    01.09.2023   |      Pascal Oestrich     |      Abfrage fürs Weiterspielen       |        0,3       |
 | 10.A  |    03.09.2023   |      Pascal Oestrich     |      Umschreiben OOP, Verbessern       |        2       |
 
-7,4 Paketen, 1 Paket = 45 min
+8,4 Paketen, 1 Paket = 45 min
 
-Total: 288 min
+Total: 378 min
 
 ## 3 Entscheiden
 
@@ -91,16 +91,18 @@ Ich habe mich entschieden, nach Planung zu arbeiten, dazu werde ich bei Bedarf o
 | 7.A  |   25.08.2023    |     Pascal Oestrich      |      1         |         0,8          |
 | 8.A  |   1.09.2023    |     Pascal Oestrich      |      1         |         1.5          |
 | 9.A  |   1.09.2023    |     Pascal Oestrich      |      0,3         |         0,3          |
+| 10.A  |    03.09.2023   |      Pascal Oestrich     |      1      |        1       |
 
-9.9 Pakete, 1 Paket = 45 min
+10.9 Pakete, 1 Paket = 45 min
 
-Total = 445.5 min
+Total = 490.5 min
 
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
+| ----| --------------- | ---------- | --------------------- |
 | 1.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |   
 | 1.2 |   08.09.2023    |    OK      |    Pascal Oestrich    |      
 | 2.1 |   08.09.2023    |    OK      |    Pascal Oestrich    |
