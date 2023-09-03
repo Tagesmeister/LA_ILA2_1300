@@ -13,7 +13,7 @@ Gruppe: GIGACHAD | Pascal Oestrich
 
 ### 1.1 Ihr Projekt
 
-Ich programmiere Objektorientiert ein Numberguesser-Spiel. 
+Ich programmiere ein Numberguesser-Spiel Objektorientiert.
 
 ### 1.2 User Stories
 
