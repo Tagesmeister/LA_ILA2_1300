@@ -133,6 +133,4 @@ Das Programm läuft einwandfrei.
 | IV  |      Programm gestartet + Eingabe Feld für Zahl            |  5      |      "Ungültige Eingabe"              |        "Ungültige Eingabe"                 |
 
 ## 6 Auswerten
-
-[
-](https://portfolio.bbbaden.ch/view/blocks.php?id=31575)
+Das Programm läuft einwandfrei.
