@@ -51,10 +51,6 @@ Ich programmiere ein Numberguesser-Spiel Objektorientiert.
 | 9.2 |   Programm gestartet + Programmende + Abfrage für nochmal spielen erscheint       |   nein     | *Programm endet.*|
 | 10.1 |   *Nichts*       |   *Nichts*       | *Programm ist projektorientiert programmiert.*|
 
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
-
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
